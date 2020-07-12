@@ -6,6 +6,8 @@
 
 お好みの検索フィルターを設定することができます。
 
+![demo](https://github.com/t-tukumo/ImScoopingLucky/blob/master/assets/demo.gif)
+
 # Author
 t-tukumo
 
