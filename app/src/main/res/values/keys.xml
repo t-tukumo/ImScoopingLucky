@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <string name="prefs_key_total_char_count_min">total_char_count_min</string>
+    <string name="prefs_key_filters_genre">filters_genre</string>
+    <string name="prefs_key_target_genre_flags">target_genre_flags</string>
+    <string name="prefs_key_r15">key_r15</string>
+    <string name="prefs_key_bl">key_bl</string>
+    <string name="prefs_key_gl">key_gl</string>
+    <string name="prefs_key_zankoku">key_zankoku</string>
+    <string name="prefs_key_tensei">key_tensei</string>
+    <string name="prefs_key_tenni">key_tenni</string>
+    <string name="prefs_key_tensei_tenni">key_tensei_tenni</string>
+    <string name="prefs_key_exclude_ending">key_exclude_ending</string>
+
+</resources>

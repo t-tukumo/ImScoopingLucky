@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Im Scooping Lucky</string>
+    <string name="action_settings">設定</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="contents_main_fragment_label">Contents Main Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <!-- Text -->
+    <string name="searching">小説を探しています…\n10秒ほどかかることがあります</string>
+    <string name="now_loading">ロードしています…</string>
+    <string name="not_found">現在の検索条件では、作品が見つかりません。</string>
+    <string name="start_guide">左にスワイプして開始します</string>
+    <string name="start_page_text">
+        "なろうの作品探していると\n"
+        "クソナガタイトルで読む気が失せる、\n"
+        "あるとおもいます。\n"
+        "\n"
+        "あえてタイトルは表示しません。\n"
+        "どこかのページの本文と\n"
+        "作者名、作品へのリンクのみ。\n"
+        "どんどんページをめくって次の作品に出会えます。\n"
+        "\n"
+        "願わくば幸運の一作を掘り当てられますよう！"
+    </string>
+    <string name="genre_title">【ジャンル(複数選択)】</string>
+    <string name="min_all_len_title">【最小文字数】</string>
+    <string name="omitted_below">略…</string>
+    <string name="hit_counter">%1$d件 （最大%2$d件）ヒットしました</string>
+    <string name="writer">作者</string>
+
+    <!-- Preference Titles -->
+    <string name="search_condition_header">検索条件</string>
+
+    <!-- Search condition Preferences -->
+    <string name="total_char_count_min_title">作品全体の文字数下限</string>
+    <string name="filters_genre">ジャンルを限定</string>
+    <string name="genre">ジャンルを選択してください</string>
+    <string name= "r15">R-15</string>
+    <string name= "bl">ボーイズラブ</string>
+    <string name= "gl">ガールズラブ</string>
+    <string name= "zankoku">残酷な描写あり</string>
+    <string name= "tensei">異世界転生</string>
+    <string name= "tenni">異世界転移</string>
+    <string name= "tensei_tenni">"異世界転生<b>または</b>異世界転移"</string>
+    <string name= "exclude_ending">"終盤のページを除外"</string>
+
+</resources>

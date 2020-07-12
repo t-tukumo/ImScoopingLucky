@@ -1,0 +1,91 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/search_condition_header">
+
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/char_count_lower_limit_entries"
+            android:entryValues="@array/char_count_lower_limit_values"
+            android:key="@string/prefs_key_total_char_count_min"
+            android:title="@string/total_char_count_min_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="@string/prefs_key_filters_genre"
+            android:title="@string/filters_genre" />
+
+        <MultiSelectListPreference
+            android:defaultValue="@array/genre_values"
+            android:entries="@array/genre_entries"
+            android:entryValues="@array/genre_values"
+            android:key="@string/prefs_key_target_genre_flags"
+            android:title="@string/genre"
+            android:dependency="@string/prefs_key_filters_genre"/>
+
+        <DropDownPreference
+            android:defaultValue="0"
+            android:entries="@array/three_filter_request_entries"
+            android:entryValues="@array/three_filter_request_values"
+            android:key="@string/prefs_key_r15"
+            android:title="@string/r15"
+            app:useSimpleSummaryProvider="true" />
+
+        <DropDownPreference
+            android:defaultValue="0"
+            android:entries="@array/three_filter_request_entries"
+            android:entryValues="@array/three_filter_request_values"
+            android:key="@string/prefs_key_bl"
+            android:title="@string/bl"
+            app:useSimpleSummaryProvider="true" />
+
+        <DropDownPreference
+            android:defaultValue="0"
+            android:entries="@array/three_filter_request_entries"
+            android:entryValues="@array/three_filter_request_values"
+            android:key="@string/prefs_key_gl"
+            android:title="@string/gl"
+            app:useSimpleSummaryProvider="true" />
+
+        <DropDownPreference
+            android:defaultValue="0"
+            android:entries="@array/three_filter_request_entries"
+            android:entryValues="@array/three_filter_request_values"
+            android:key="@string/prefs_key_zankoku"
+            android:title="@string/zankoku"
+            app:useSimpleSummaryProvider="true" />
+
+        <DropDownPreference
+            android:defaultValue="0"
+            android:entries="@array/three_filter_request_entries"
+            android:entryValues="@array/three_filter_request_values"
+            android:key="@string/prefs_key_tensei"
+            android:title="@string/tensei"
+            app:useSimpleSummaryProvider="true" />
+
+        <DropDownPreference
+            android:defaultValue="0"
+            android:entries="@array/three_filter_request_entries"
+            android:entryValues="@array/three_filter_request_values"
+            android:key="@string/prefs_key_tenni"
+            android:title="@string/tenni"
+            app:useSimpleSummaryProvider="true" />
+
+        <DropDownPreference
+            android:defaultValue="0"
+            android:entries="@array/three_filter_request_entries"
+            android:entryValues="@array/three_filter_request_values"
+            android:key="@string/prefs_key_tensei_tenni"
+            android:title="@string/tensei_tenni"
+            app:useSimpleSummaryProvider="true" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/prefs_key_exclude_ending"
+            android:title="@string/exclude_ending" />
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
